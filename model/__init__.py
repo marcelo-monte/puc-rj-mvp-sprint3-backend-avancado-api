@@ -37,7 +37,7 @@ usuario = session.query(Usuario).first()
 
 # Se não houver nenhum usuário, insere um
 if not usuario:
-    usuario = Usuario(nome="Cicrano da Silva", cpf="222.222.222-22")
+    usuario = Usuario(nome="Fulano da Silva", cpf="222.222.222-22")
     session.add(usuario)
     session.commit()
 
