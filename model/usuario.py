@@ -5,7 +5,7 @@ from model import Base
 class Usuario(Base):
     __tablename__ = "usuario"
 
-    id = Column("pk_usuario", Integer, primary_key=True)
+    id = Column(Integer, primary_key=True)
     nome = Column(String(30), nullable=False)
     cpf = Column(String(15), nullable=False)
     cep = Column(String(8), nullable=True)
@@ -15,7 +15,7 @@ class Usuario(Base):
     uf = Column(String(2), nullable=True)
     complemento = Column(String(60), nullable=True)
 
-    def __init__(self, nome: str, cpf: DateTime):
+    def __init__(self, nome: str, cpf: str):
         """
         Cria um Usuario (nessa versão, só temos 01 endereço por usuário)
 
