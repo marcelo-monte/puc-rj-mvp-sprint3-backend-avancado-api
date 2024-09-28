@@ -18,7 +18,7 @@ class UsuarioViewSchema(BaseModel):
 
 
 class EnderecoDelSchema(BaseModel):
-    """ Define como os parâmetros para remover um endereço (pelo id do usuário).
+    """ Define os parâmetros para remover um endereço (pelo id do usuário).
     """
     id: int = 1
 

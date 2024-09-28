@@ -19,7 +19,6 @@ Este projeto fez parte do MVP da Sprint 3 da Pós-Graduação da PUC-RJ (Backend
 ### 📑Regras de negócio
 
 - Inclusão, remoção, edição e visualização do endereço de um usuário
-- 
 
 ### Endpoints
 
@@ -115,4 +114,4 @@ Seguem as instruções para a instalação, configuração e uso da aplicação.
 ## Desenvolvedor
 
 - [Github](https://github.com/marcelo-monte)
-- [Linkedin](https://www.linkedin.com/in/marcelo-monte-fernandes/)
+- [LinkedIn](https://www.linkedin.com/in/marcelo-monte-fernandes/)
